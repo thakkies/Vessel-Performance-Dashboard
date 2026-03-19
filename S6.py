@@ -13,6 +13,8 @@ title_text = "Vessel Performance"
 st.set_page_config(page_title=title_text, layout="wide")
 st.title(title_text)
 
+st.write("test")
+
 # 1. Bestands-uploader
 uploaded_file = st.file_uploader("Upload Vessel Data", type=["csv", "txt"])
 
